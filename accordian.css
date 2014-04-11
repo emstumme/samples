@@ -1,0 +1,86 @@
+h3{
+    font-size: .95em;
+margin-left: 40px;
+border-bottom: 1px dotted;
+color: #686868;
+width: 80%;
+font-weight: 300;
+
+}
+li{
+list-style-type: none;
+
+margin-left: 30px;
+}
+
+.arrow {
+	position: absolute;
+left: .5em;
+top: 50%;
+margin-top: -8px;
+background-image: url('http://www.smcm.edu/_assets/new-site/img/sitewide/uparrow.png');
+}
+
+.ui-icon {
+	display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+.ui-accordion .ui-accordion-header {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin-top: 2px;
+	padding: .5em .5em .5em .7em;
+	min-height: 0; /* support: IE7 */
+}
+
+.ui-accordion .ui-accordion-icons {
+	padding-left: 2.2em;
+}
+
+.ui-accordion .ui-accordion-icons .ui-accordion-icons {
+	padding-left: 2.2em;
+}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	position: absolute;
+	left: .5em;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-accordion .ui-accordion-content {
+	padding: 1em 2.2em;
+	border-top: 0;
+	overflow: auto;
+}
+
+/* icon support */
+
+
+/* left-aligned */
+.ui-menu .ui-icon {
+	position: absolute;
+	top: .2em;
+	left: .2em;
+}
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon {
+	width: 16px;
+	height: 16px;
+}
+
+.ui-state-default .ui-icon {
+	background-image:   url(downarrow.png);  
+}
+
+.ui-state-active .ui-icon {
+	background-image:  url(uparrow.png);   
+}
+
+
