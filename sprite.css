@@ -1,0 +1,55 @@
+/* Sprite Icons */	
+
+.navlist-wrapper {
+    position: relative;
+    width: 1260px;
+    margin: 0 auto;
+}
+
+#navlist li{
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: 5px;
+	margin-left: 50px;
+}
+
+#navlist {
+    margin: 0px;
+    padding: 0px;
+    
+}
+#navlist li, #navlist a{height: 93px;display:block;}
+
+
+#bestcollege{left: 8px;	width: 150px;}
+#bestcollege{background:url('http://www.smcm.edu/_assets/new-site/img/sitewide/sprite1.jpg') -50px 95px;}
+#bestcollege a:hover{background: url('http://www.smcm.edu/_assets/new-site/img/sitewide/sprite1.jpg') -50px 0px;}
+
+#honorroll{	left: 150px;width: 150px;}
+#honorroll{background:url('http://www.smcm.edu/_assets/new-site/img/sitewide/sprite1.jpg') -200px 95px;}
+#honorroll a:hover{background: url('http://www.smcm.edu/_assets/new-site/img/sitewide/sprite1.jpg') -200px 0px;}
+
+#green{left: 292px;width:150px;}
+#green{background:url('http://www.smcm.edu/_assets/new-site/img/sitewide/sprite1.jpg') -350px 95px;}
+#green a:hover{background: url('http://www.smcm.edu/_assets/new-site/img/sitewide/sprite1.jpg') -350px 0px;}
+
+#maryland{left: 434px;width:150px;}
+#maryland{background:url('http://www.smcm.edu/_assets/new-site/img/sitewide/sprite1.jpg') -500px 95px;}
+#maryland a:hover{background: url('http://www.smcm.edu/_assets/new-site/img/sitewide/sprite1.jpg') -500px 0px;}
+
+#princeton{left: 576px;width:150px;}
+#princeton{background:url('http://www.smcm.edu/_assets/new-site/img/sitewide/sprite1.jpg') -650px 95px;}
+#princeton a:hover{background: url('http://www.smcm.edu/_assets/new-site/img/sitewide/sprite1.jpg') -650px 0px;}
+
+#public{left: 718px;width:150px;}
+#public{background:url('http://www.smcm.edu/_assets/new-site/img/sitewide/sprite1.jpg') -800px 95px;}
+#public a:hover{background: url('http://www.smcm.edu/_assets/new-site/img/sitewide/sprite1.jpg') -800px 0px;}
+
+#topcollege{left: 860px;width:150px;}
+#topcollege{background:url('http://www.smcm.edu/_assets/new-site/img/sitewide/sprite1.jpg') -950px 95px;}
+#topcollege a:hover{background: url('http://www.smcm.edu/_assets/new-site/img/sitewide/sprite1.jpg') -950px 0px;}
+
+#fiske{left: 1002px;width:150px;}
+#fiske{background:url('http://www.smcm.edu/_assets/new-site/img/sitewide/sprite1.jpg') -1100px 95px;}
+#fiske a:hover{background: url('http://www.smcm.edu/_assets/new-site/img/sitewide/sprite1.jpg') -1100px 0px;}
