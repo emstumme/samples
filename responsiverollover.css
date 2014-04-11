@@ -1,0 +1,132 @@
+/*Rollovers section*/
+
+.rollovers {
+    background-color: #f8f2e3;
+	border-top: 1px solid #d3d3d3;
+	-webkit-box-shadow: 0px -3px 10px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px -3px 10px 0px rgba(0,0,0,0.1);
+}
+
+.feature{
+	float:left;
+	/* width:25%; */
+	position:relative;
+	height:250px;
+	overflow:hidden;
+}	
+
+.feature img{
+	max-width: 200px;
+	border-radius:160px;
+	margin-top:10%;
+	opacity: 0.8;
+	border: 8px solid #ececec;
+}
+
+.rollovers .one-fourth{
+	/* float: left; */
+	margin-left: 2.564102564102564%;
+	width: 22.076923%;
+}
+
+
+.feature:hover{
+	background-color:#1e3159;
+}
+
+.feature h3{
+	position:absolute;
+	top:10%;
+	left: 0%;
+	display:block;
+	width:80%;
+	padding:10%;
+	width:100%;
+	font-size: 20px !important;
+}
+
+.feature h3{
+	display:none;
+}
+
+.feature p{
+	display:none;
+	text-align: left;
+}
+
+.rollovers position:absolute;width:700px;height:auto;filter:grayscale(100%);/* -webkit-filter:grayscale(100%); */-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);/* filter:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'>s'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale"); */filter:gray}
+
+.rollovers .feature a{
+	text-decoration:none;
+}
+
+.rollovers .feature a:hover img{
+	opacity:0.08;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=08)";
+	filter:alpha(opacity=8);
+	-moz-opacity:0.08;
+	-khtml-opacity:0.08;
+	background-color:#1e3159;
+}
+
+.rollovers .feature a:hover h3{
+	display:block;
+	color:#fff;
+	font-family: serif;
+	font-size:1.5em;
+	line-height:1.4em;
+}
+
+.rollovers .feature a:hover p {
+	display:block;
+	position:absolute;
+	bottom:10%;
+	text-align:right;
+	padding-right:20px;
+	width:100%;
+	color:#e8d5da;
+}
+
+.rollovers .one-fourth{
+	/* float: left; */
+	margin-left: 2.564102564102564%;
+	width: 22.076923%;
+}
+
+.feature.one-fourth {
+width: 100% !important;
+text-align:center;
+position: relative;
+margin:0 auto;
+
+}
+
+.feature.one-fourth img {
+	margin-top:3%;
+	opacity:0.3;
+}
+
+.feature.one-fourth {
+	background:#1e3159;
+	border-bottom:1px solid rgba(250, 250, 250, 0.17);
+}
+
+@media only screen and (max-width: 767px) {
+
+	.five-sixths,
+	.four-sixths,
+	.one-fourth,
+	.one-half,
+	.one-sixth,
+	.one-third,
+	.three-fourths,
+	.three-sixths,
+	.two-fourths,
+	.two-sixths,
+	.two-thirds {
+		margin: 0;
+		width: 100%;
+	}
+
+
+
